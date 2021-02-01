@@ -33,7 +33,7 @@
     <!-- Navigation Menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <h5><a class="navbar-brand Display-5" href="/clinic/">KMNH</a></h5>
+            <h5><a class="navbar-brand Display-5" href="#">KMNH</a></h5>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
