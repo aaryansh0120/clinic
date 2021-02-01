@@ -33,7 +33,7 @@
     <!-- Navigation Menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <h5><a class="navbar-brand Display-5" href="#">KMNH</a></h5>
+            <h5><a class="navbar-brand Display-5" href="/clinic/">KMNH</a></h5>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,12 +42,12 @@
                     <li class="nav-item">
                         <a class="nav-link <?php if ($page == 'index') {
                                                 echo 'active';
-                                            } ?>" aria-current="page" href="index.php">Home</a>
+                                            } ?>" aria-current="page" href="/clinic/index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php if ($page == 'service') {
                                                 echo 'active';
-                                            } ?>" href="service.php">Services</a>
+                                            } ?>" href="/clinic/service.php">Services</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Topics</a>
@@ -65,12 +65,12 @@
                     <li class="nav-item">
                         <a class="nav-link <?php if ($page == 'about') {
                                                 echo 'active';
-                                            } ?>" href="about.php">About Us</a>
+                                            } ?>" href="/clinic/about.php">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php if ($page == 'contact') {
                                                 echo 'active';
-                                            } ?>" href="contact.php">Contact Us</a>
+                                            } ?>" href="/clinic/contact.php">Contact Us</a>
                     </li>
                     
                 </ul>
