@@ -42,12 +42,12 @@
                     <li class="nav-item">
                         <a class="nav-link <?php if ($page == 'index') {
                                                 echo 'active';
-                                            } ?>" aria-current="page" href="/clinic/index.php">Home</a>
+                                            } ?>" aria-current="page" href="/kmnh/index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php if ($page == 'service') {
                                                 echo 'active';
-                                            } ?>" href="/clinic/service.php">Services</a>
+                                            } ?>" href="/kmnh/service.php">Services</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Topics</a>
@@ -65,12 +65,12 @@
                     <li class="nav-item">
                         <a class="nav-link <?php if ($page == 'about') {
                                                 echo 'active';
-                                            } ?>" href="/clinic/about.php">About Us</a>
+                                            } ?>" href="/kmnh/about.php">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php if ($page == 'contact') {
                                                 echo 'active';
-                                            } ?>" href="/clinic/contact.php">Contact Us</a>
+                                            } ?>" href="/kmnh/contact.php">Contact Us</a>
                     </li>
                     
                 </ul>
